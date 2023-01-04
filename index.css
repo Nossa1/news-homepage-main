@@ -1,0 +1,225 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.headContainer{
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+ 
+ position: relative;
+  width: 1000px;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;   
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+
+}
+li{
+  display: inline; 
+  float: left;
+}
+li a {
+  display: block;
+  padding: 0px 18px;
+  color: hsl(236, 13%, 42%);
+  cursor: pointer;
+  text-decoration: none;
+}
+li  :hover {
+  color: hsl(35, 77%, 62%);
+}
+.bodyContainer{   
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+ 
+  position: relative; 
+  width: 1000px;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsContainer{
+  width: 340px;
+  height: 450px;
+  background-color: hsl(240, 100%, 5%);
+  display: inline; 
+  float: right;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  bottom: 480px;
+}
+.newsContainer h1{
+  color: hsl(35, 77%, 62%);
+  line-height: 40px;
+}
+.newsContainer h4{
+  color: white;
+  cursor: pointer;
+  line-height: 2px;
+}
+.newsContainer h5{
+  color:  hsl(233, 8%, 79%);
+  line-height: 20px;
+  font-weight: 100;
+  font-size: 18px;
+}
+.newsContainer  h4 :hover{
+  color: hsl(35, 77%, 62%);
+}
+.subBody{
+
+margin-right: 400px;
+position: relative;
+}
+.subBody h1{
+font-weight: 900;
+font-size: 45px;
+width: 250px;
+}
+.subBody p{
+top: 0;
+right: 20px;
+font-size: 12px;
+position: absolute;
+line-height: 20px;
+}
+.subBody button{
+right: 135px;
+position: absolute;
+top: 130px;
+padding: 10px 30px;
+border: none;
+letter-spacing: 2px;
+font-size: 12px;
+background-color: hsl(5, 85%, 63%);
+color: white;
+cursor: pointer;
+}
+.myBtn :hover{
+background-color: hsl(240, 100%, 5%);
+}
+.footer{
+bottom: 350px;
+width: 1000px;
+height: 130px;
+
+position: relative;
+display: inline-flex;
+
+}
+
+.left{
+
+margin-right: 210px;
+}
+.left h1{
+display: inline;
+position: absolute;
+color: hsl(0, 0%, 81%);
+left: 120px;
+bottom: 80px;
+font-size: 22px;
+}
+.left h3{
+display: inline;
+position: absolute;
+bottom: 50px;
+left: 120px;
+font-size: 15px;
+}
+.left p{
+display: inline;
+position: absolute;
+top: 60px;
+left: 120px;
+line-height: 20px;
+font-size: 12px;
+}
+
+
+.center{
+
+margin-right: 20px;
+position: relative;
+width: 320px;
+}
+.center h1{
+display: inline;
+position: absolute;
+color: hsl(0, 0%, 81%);
+left: 120px;
+bottom: 80px;
+font-size: 22px;
+}
+.center h3{
+display: inline;
+position: absolute;
+bottom: 50px;
+left: 120px;
+font-size: 15px;
+}
+.center p{
+display: inline;
+position: absolute;
+top: 60px;
+left: 120px;
+line-height: 20px;
+font-size: 12px;
+
+}
+
+
+.right{
+
+position: relative;
+width: 300px;
+}
+.right h1{
+display: inline;
+position: absolute;
+color: hsl(0, 0%, 81%);
+left: 120px;
+bottom: 80px;
+font-size: 22px;
+}
+.right h3{
+display: inline;
+position: absolute;
+bottom: 50px;
+left: 120px;
+font-size: 15px;
+}
+.right p{
+display: inline;
+position: absolute;
+top: 60px;
+left: 120px;
+line-height: 20px;
+font-size: 12px;
+}
+.menuIcon{
+  display: none;
+}
+.closeIcon{
+  display: none;
+}
+
+
+
+
+
+
